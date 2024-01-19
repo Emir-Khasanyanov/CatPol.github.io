@@ -1,3 +1,2 @@
-
-console.log("penis")
+alert("сосать негры")
 
