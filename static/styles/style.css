@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: 'Bebas Neue';
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.logo{
+    height: 5vw;
+    width: 5vw;
+
+}
+.head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+.tg-logo{
+    height: 5vw;
+    width: 5vw;
+    margin-bottom:5px;
+}
+.inst-logo{
+    height: 3.8vw;
+    width: 3.8vw;
+    position:relative;
+    top: 0.5vw;
+}
+.contacts{
+    padding-right: 2vw;
+    display: flex;
+  justify-content: flex-end;
+
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.6vw;
+}
+.line{
+    height: 0.15vw;
+    width: 100%;
+    background-color: black;
+}
+nav {
+    border-top: 0.15vw solid white;
+    border-bottom: 0.15vw solid white;
+    background-image:url("../img/back1.png");
+     background-position: -100px 0px;
+    padding: 0.1vw;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+
+    display: inline;
+    margin-right: 1.6vw;
+    font-size: 1.5vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+.products{
+    padding-top: 0.6vw;
+    padding-left: 0.7vw;
+}
+.product-panel{
+    width: 20vw;
+    height: 40vw;
+    padding-left: 3vw;
+    padding-top:1vw;
+
+}
+.product-img{
+    box-shadow: -15px 100px black;
+    border-radius: 20px;
+    width: 20vw;
+    height: 30vw;
+    transition: all 300ms;
+}
+.product-img:hover{
+box-shadow: -15px 100px black;
+    border-radius: 20px;
+    width: 22vw;
+    height: 32vw;
+
+}
+
+.product-img2{
+    width: 20vw;
+    height: 30vw;
+    display: none;
+}
+.product-price{
+color: white;
+font-size: 1.2vw;
+
+}
+.product-name{
+height:10px;
+font-size: 1.2vw;
+color: white;
+
+}
+.product-text{
+margin-top: 5px;
+}
+.products-list{
+display:flex;
+
+}
+.prava{
+    font-size: 1vw;
+    position: relative;
+    bottom: 4.5vw;
+}
