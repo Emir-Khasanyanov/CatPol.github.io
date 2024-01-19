@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/styles/style.css">
+    <title>Engels shop</title>
+</head>
+
+<body>
+    <header>
+        <div class ="head1">
+
+        <img class = "logo" src = "../static/img/logo.JPG">
+        <h1>Engels shop</h1>
+    </div>
+
+
+        <nav>
+            <ul>
+                <li><a href="/">for her</a></li>
+                <li><a href="#">for him</a></li>
+                <li><a href="/add_product">add</a></li>
+            </ul>
+        </nav>
+        <div class = "line"></div>
+    </header>
+    <main>
+
+<div class = "products-list">
+{% for row in products %}
+    <div class="product-panel">
+                <img class="product-img" src="{{ row[4] }}" alt="Product Photo">
+        <img class="product-img2" src="{{ row[5] }}" alt="Product Photo">
+        <div class="product-text">
+            <p class="product-name">{{ row[1] }}</p>
+            <p class="product-price">{{ row[3] }} fr🏷️</p>
+        </div>
+    </div>
+{% endfor %}
+</div>
+</main>
+
+    <footer>
+                <div class = "line"></div>
+        <div class = "contacts">
+        <a href = "https://youtube.com"><img class = "tg-logo" src = "../static/img/tg-logo.png"></a>
+        <a href = "youtube.com"><img class = "inst-logo" src = "../static/img/inst-logo.png"></a>
+                </div>
+        <p class = "prava">&copy; 2024 My website. All rights reserved</p>
+
+    </footer>
+<script src = "../script.js"></script>
+</body>
+
+</html>
